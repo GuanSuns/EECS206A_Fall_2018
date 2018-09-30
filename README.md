@@ -12,7 +12,7 @@ ROS Indigo or Kinetic work well for most labs. Other dependencies for each lab n
 - Lab 4: Microsoft Kinetic or other configured cameras
 
 ## Lectures
-Lectures are organized by following the structure of the course book [A Mathematical Introduction to Robotic Manipulation](./A MathematicalIntroductiontoRoboticManipulation.pdf)
+Lectures are organized by following the structure of the course book [A Mathematical Introduction to Robotic Manipulation](./AMathematicalIntroductiontoRoboticManipulation.pdf)
 
 ## Labs
 If you have difficulties, please refer to my [personal remarks](./Labs/README.md) about lab work.
