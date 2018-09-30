@@ -9,3 +9,6 @@ One small tip is presented for Part 4 in Lab 2. In order to create multiple turt
 Please refer to quaternion representation and transformation matrix involving twist representation, which is strongly recommended.
 
 If you have difficulty with Part 1.4, I would recommend you to use `rosrun tf view_frames`, which generates a list of frames in the terminal and summary them up in a pdf file. As you might noticed, the system has more than thirty frames. It's fine to choose any two of them to finish part 1.4.
+
+## Lab4
+This lab talks about an introductive calibration of camera, including an implementation of Homography matrix and numerical calculations of mapping from pixels coordinates to world coordinates. By following the intructions, this lab work is easily to be finished. 
