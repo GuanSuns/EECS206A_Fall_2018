@@ -28,9 +28,9 @@ def main():
         request1.ik_request.pose_stamped.header.frame_id = "base"
         
         #Set the desired orientation for the end effector HERE
-        request1.ik_request.pose_stamped.pose.position.x = .703
-        request1.ik_request.pose_stamped.pose.position.y = .505
-        request1.ik_request.pose_stamped.pose.position.z = -.388  
+        request1.ik_request.pose_stamped.pose.position.x = .663
+        request1.ik_request.pose_stamped.pose.position.y = .341
+        request1.ik_request.pose_stamped.pose.position.z = 0
         request1.ik_request.pose_stamped.pose.orientation.x = 0.0
         request1.ik_request.pose_stamped.pose.orientation.y = 1.0
         request1.ik_request.pose_stamped.pose.orientation.z = 0.0
@@ -41,13 +41,13 @@ def main():
 
         request2.ik_request.group_name = "left_arm"
         request2.ik_request.ik_link_name = "left_gripper"
-        request2.ik_request.attempts = 20
+        request2.ik_request.attempts = 50
         request2.ik_request.pose_stamped.header.frame_id = "base"
         
         #Set the desired orientation for the end effector HERE
-        request2.ik_request.pose_stamped.pose.position.x = .777
-        request2.ik_request.pose_stamped.pose.position.y = .280
-        request2.ik_request.pose_stamped.pose.position.z = -.372   
+        request2.ik_request.pose_stamped.pose.position.x = .802
+        request2.ik_request.pose_stamped.pose.position.y = .048
+        request2.ik_request.pose_stamped.pose.position.z = 0   
         request2.ik_request.pose_stamped.pose.orientation.x = 0.0
         request2.ik_request.pose_stamped.pose.orientation.y = 1.0
         request2.ik_request.pose_stamped.pose.orientation.z = 0.0
