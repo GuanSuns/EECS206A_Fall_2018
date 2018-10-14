@@ -16,3 +16,6 @@ Lectures are organized by following the structure of the course book [A Mathemat
 
 ## Labs
 If you have difficulties, please refer to my [personal remarks](./Labs/README.md) about lab work.
+
+![图片名][1]
+[1]:http://latex.codecogs.com/gif.latex?\prod%20\(n_{i}\)+1
