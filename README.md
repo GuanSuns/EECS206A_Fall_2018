@@ -10,6 +10,8 @@ ROS Indigo or Kinetic work well for most labs. Other dependencies for each lab n
 ### Hardware
 - Lab 3: Baxter robot
 - Lab 4: Microsoft Kinetic or other configured cameras
+- Lab 5: Baxter robot
+- Lab 6: Turtlebot, Microsoft Kinetic or other configured cameras
 
 ## Lectures
 Lectures are organized by following the structure of the course book [A Mathematical Introduction to Robotic Manipulation](./AMathematicalIntroductiontoRoboticManipulation.pdf).
