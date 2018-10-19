@@ -53,4 +53,25 @@ while( right.joint_angle(lj[0])-our_theta['right_s0']<0.1 or
 
 
 ## Lab4
-This lab talks about an introductive calibration of camera, including an implementation of Homography matrix and numerical calculations of mapping from pixel coordinates to world coordinates. By following the intructions, this lab work is easily to be finished. 
+This lab talks about an introductive calibration of camera, including an implementation of Homography matrix and numerical calculations of mapping from pixel coordinates to world coordinates. By following the intructions, this lab work is easily to be finished.
+
+## Lab6
+For part 2, please follow the instructions step by step.
+
+For part 3, firstly connect to turtlebot, for example:
+```
+ssh turtlebot@green.local
+```
+
+Launch the ar_marker tracking
+```
+roslaunch ar_track_alvar webcam_track.launch
+```
+Establish the static transformation between two frames: ar_marker on the turtlebot and its base_link
+```
+rosrun tf static_transform_publisher 0.014 0 -0.397 0 0 0 ar_marker_12 base_link 100
+```
+We can check the configuration of frames, axis in the rviz. Always make sure that two markers are detected by the camera. Please use `rqt_tf_tree` to ensure the transformation is well established
+```
+rosrun rqt_tf_tree rqt_tf_tree
+```
