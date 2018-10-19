@@ -55,6 +55,8 @@ while( right.joint_angle(lj[0])-our_theta['right_s0']<0.1 or
 ## Lab4
 This lab talks about an introductive calibration of camera, including an implementation of Homography matrix and numerical calculations of mapping from pixel coordinates to world coordinates. By following the intructions, this lab work is easily to be finished.
 
+## Lab5
+
 ## Lab6
 For part 2, please follow the instructions step by step.
 
