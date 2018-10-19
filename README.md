@@ -5,9 +5,13 @@ All the course material and personal lab solutions of EECS 106A/206A at UC Berke
 
 ## Environment
 
-### Software
-ROS Indigo or Kinetic work well for most labs. Other dependencies for each lab need to be refered individually in the instruction pdf.
+## Dependencies
 ### Hardware
+ROS Indigo or Kinetic work well for most labs. Other dependencies for each lab need to be refered individually in the instruction pdf.
+
+### Software
+- Lab 1: No hardware needed
+- Lab 2: No hardware needed
 - Lab 3: Baxter robot
 - Lab 4: Microsoft Kinetic or other configured cameras
 - Lab 5: Baxter robot
