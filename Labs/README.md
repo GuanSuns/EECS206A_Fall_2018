@@ -77,3 +77,28 @@ We can check the configuration of frames, axis in the rviz. Always make sure tha
 ```
 rosrun rqt_tf_tree rqt_tf_tree
 ```
+
+## Lab8
+An screenshot of Rviz is presented as below. Notice that the fixed frame of Rviz should be set as "odom".
+![Lab8_rviz](Lab8/illustration.png)
+
+In order to make sure that each voxel is updated once per ray, we use the temperal variable `x_prev` and `y_prev` to count backwards along the ray from the scan point to the sensor.
+
+```
+for i in np.arange(r,0,-0.1):
+    x_prev = x_val
+    y_prev = y_val
+    x_val = i*np.sin(angle)
+    y_val = i*np.cos(angle)
+
+    val = self.PointToVoxel(x_val,y_val)
+    if self.PointToVoxel(x_val,y_val) != self.PointToVoxel(x_prev,y_prev):
+        if i == r:
+            self._map[val] += self._occupied_update
+            if self._map[val] >= self._occupied_threshold:
+                self._map[val] = self._occupied_threshold
+        else:
+            self._map[val] += self._free_update
+            if self._map[val] <= self._free_threshold:
+                self._map[val] = self._free_threshold
+```
