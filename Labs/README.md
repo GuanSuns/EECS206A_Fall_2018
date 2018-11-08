@@ -80,6 +80,7 @@ rosrun rqt_tf_tree rqt_tf_tree
 
 ## Lab8
 An screenshot of Rviz is presented as below. Notice that the fixed frame of Rviz should be set as "odom".
+
 ![Lab8_rviz](Lab8/illustration.png)
 
 In order to make sure that each voxel is updated once per ray, we use the temperal variable `x_prev` and `y_prev` to count backwards along the ray from the scan point to the sensor.
