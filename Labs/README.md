@@ -78,6 +78,8 @@ We can check the configuration of frames, axis in the rviz. Always make sure tha
 rosrun rqt_tf_tree rqt_tf_tree
 ```
 
+## Lab7
+
 ## Lab8
 An screenshot of Rviz is presented as below. Notice that the fixed frame of Rviz should be set as "odom".
 
