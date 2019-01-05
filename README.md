@@ -19,3 +19,4 @@ ROS Indigo or Kinetic work well for most labs. Other dependencies for each lab n
 Lectures are organized by following the structure of the course book [A Mathematical Introduction to Robotic Manipulation](./AMathematicalIntroductiontoRoboticManipulation.pdf). The course material convers from chapter 1 to chapter 4.
 ## Labs
 If you have difficulties, please refer to my [personal remarks](./Labs/README.md) about lab work. I wrote some hints to the difficuilties that I have encountered or some feedback from GSIs.
+
